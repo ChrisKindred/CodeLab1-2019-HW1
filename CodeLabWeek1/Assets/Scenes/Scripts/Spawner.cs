@@ -23,5 +23,5 @@ public class Spawner : MonoBehaviour
        GameObject newPrize = Instantiate(Resources.Load<GameObject>("Prefab/Prize"));
        newPrize.transform.position = new Vector2(Random.Range(-10, 10), Random.Range(-5, 5));
     }
-    
+    //hi mom
 }
